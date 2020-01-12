@@ -1,0 +1,118 @@
+@import '_reset';
+@import '_fonts';
+
+
+body {
+    background-color: #e2e7ec;
+    padding-top: 91px;
+    @media screen and (max-width: 768px) {
+        padding-top: 30px;
+    }
+}
+
+.wrap {
+    width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @media screen and (max-width: 1200px) {
+        width: 740px;
+    }
+    @media screen and (max-width: 768px) {
+        width: 360px;
+    }
+    @media screen and (max-width: 568px) {
+        width: 300px;
+    }
+}
+
+.item {
+    height: 540px;
+    width: 360px;
+    background-position: top;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    padding: 0 28px;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 20px;
+    @media screen and (max-width: 568px) {
+        width: 300px;
+    }
+}
+
+.big {
+    width: 740px;
+    padding: 0;
+    padding-left: 40px;
+    padding-top: 410px;
+    box-sizing: border-box;
+    z-index: 1;
+    @media screen and (max-width: 768px) {
+        width: 360px;
+        padding-top: 100px;
+        height: 240px;
+    }
+    @media screen and (max-width: 568px) {
+        width: 300px;
+    }
+    h3 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        margin-left: 2px;
+        z-index: 1;
+    }
+    h1 {
+        font-size: 30px;
+        max-width: 440px;
+        color: #ffffff;
+        z-index: 1;
+        line-height: 1.25;
+        @media screen and (max-width: 768px) {
+            font-size: 20px;
+        }
+    }
+}
+.big::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    z-index: -1;
+}
+
+h3 {
+    font-family: 'HansKendrick';
+    font-weight: 500;
+    font-size: 13px;
+    color: #818181;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-top: 285px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    
+    font-family: "HansKendrick";
+    color: #1d1d1d;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.36;
+    font-size: 22px;
+}
+.avatar {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    overflow: hidden;
+    top: 460px;
+}
+
+

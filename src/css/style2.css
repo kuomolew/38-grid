@@ -1,0 +1,149 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+  padding: 0;
+  margin: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset, img {
+  border: 0; }
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-weight: normal;
+  font-style: normal; }
+
+ol, ul {
+  list-style: none; }
+
+caption, th {
+  text-align: left; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 100%; }
+
+q:before, q:after {
+  content: ''; }
+
+abbr, acronym {
+  border: 0; }
+
+html {
+  height: 100%; }
+
+@font-face {
+  font-family: 'HansKendrick';
+  src: local("Hans Kendrick"), local("HansKendrick"), url("../fonts/hanskendrick/hanskendrick-medium-webfont.woff") format("woff"), url("../fonts/hanskendrick/hanskendrick-medium-webfont.otf") format("otf"), url("../fonts/hanskendrick/hanskendrick-medium-webfont.eot") format("eot"), url("../fonts/hanskendrick/hanskendrick-medium-webfont.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'HansKendrick';
+  src: local("Hans Kendrick"), local("HansKendrick"), url("../fonts/hanskendrick/HKGrotesk-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+
+body {
+  background-color: #e2e7ec;
+  padding-top: 91px; }
+  @media screen and (max-width: 768px) {
+    body {
+      padding-top: 30px; } }
+
+.wrap {
+  width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  @media screen and (max-width: 1200px) {
+    .wrap {
+      width: 740px; } }
+  @media screen and (max-width: 768px) {
+    .wrap {
+      width: 360px; } }
+  @media screen and (max-width: 568px) {
+    .wrap {
+      width: 300px; } }
+
+.item {
+  height: 540px;
+  width: 360px;
+  background-position: top;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  padding: 0 28px;
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 20px; }
+  @media screen and (max-width: 568px) {
+    .item {
+      width: 300px; } }
+
+.big {
+  width: 740px;
+  padding: 0;
+  padding-left: 40px;
+  padding-top: 410px;
+  box-sizing: border-box;
+  z-index: 1; }
+  @media screen and (max-width: 768px) {
+    .big {
+      width: 360px;
+      padding-top: 100px;
+      height: 240px; } }
+  @media screen and (max-width: 568px) {
+    .big {
+      width: 300px; } }
+  .big h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    z-index: 1; }
+  .big h1 {
+    font-size: 30px;
+    max-width: 440px;
+    color: #ffffff;
+    z-index: 1;
+    line-height: 1.25; }
+    @media screen and (max-width: 768px) {
+      .big h1 {
+        font-size: 20px; } }
+
+.big::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to top, black, rgba(0, 0, 0, 0));
+  z-index: -1; }
+
+h3 {
+  font-family: 'HansKendrick';
+  font-weight: 500;
+  font-size: 13px;
+  color: #818181;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-top: 285px;
+  margin-bottom: 10px; }
+
+h1 {
+  font-family: "HansKendrick";
+  color: #1d1d1d;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.36;
+  font-size: 22px; }
+
+.avatar {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  overflow: hidden;
+  top: 460px; }

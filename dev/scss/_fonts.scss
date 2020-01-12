@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'HansKendrick';
+    src: local('Hans Kendrick'), local('HansKendrick'), 
+    url('../fonts/hanskendrick/hanskendrick-medium-webfont.woff') format('woff'), 
+    url('../fonts/hanskendrick/hanskendrick-medium-webfont.otf') format('otf'), 
+    url('../fonts/hanskendrick/hanskendrick-medium-webfont.eot') format('eot'), 
+    url('../fonts/hanskendrick/hanskendrick-medium-webfont.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HansKendrick';
+    src: local('Hans Kendrick'), local('HansKendrick'), 
+    url('../fonts/hanskendrick/HKGrotesk-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
